@@ -1,0 +1,53 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    background: rgb(32,0,71);
+    background: linear-gradient(90deg, rgba(32,0,71,1) 0%, rgba(76,19,135,1) 47%, rgba(241,86,86,1) 100%);
+}
+
+h1, h2, label, p {
+    text-align: center;
+    color: white;
+}
+
+#icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255, 0.5);
+    font-size: 16px;
+    resize: none;
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  a:visited {
+      color: white;
+  }
+
+  a:hover {
+      color: rgb(145, 83, 182);
+  }
+
+  ::placeholder {
+      color: black;
+  }

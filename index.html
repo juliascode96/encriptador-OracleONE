@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="icon.webp" width="100" id="icon">
+    <h1>Cypher:</h1>
+    <h2>Encriptador y desencriptador de texto</h2>
+        <form onsubmit="return false">
+            <label for="">Ingrese un texto</label><br>
+            <textarea type="text" name="mensaje" id="mensaje" placeholder="no incluir números o caracteres especiales"></textarea><br>
+            <button id="enc">Encriptar</button>
+            <button id="desenc">Desencriptar</button><br><br>
+        </form>
+        <form onsubmit="return false">
+        <label for="">Resultado</label><br>
+        <textarea id="texto"></textarea><br>
+        <button id="copiar">Copiar texto encriptado</button>
+        </form>
+        <footer>
+            <p>Hecho con ♥ por <a href="https://github.com/juliascode96">JS</a></p>
+        </footer>
+    <script src="app.js"></script>
+</body>
+</html>
